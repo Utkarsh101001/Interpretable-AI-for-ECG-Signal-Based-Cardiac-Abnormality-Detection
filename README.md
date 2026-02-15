@@ -2,51 +2,22 @@
 This is a personal project focused on developing an interpretable and lightweight AI model for ECG signal-based cardiac abnormality detection. The goal is to design a lightweight and transparent Decision Tree classifier that can identify heart abnormalities from ECG signals while maintaining clinical interpretability.
 
 ## Overview
-This project investigates the use of an interpretable Decision Tree classifier for detecting cardiac abnormalities from ECG signals.
+Adoption of AI in the healthcare industry has increased significantly in the past decade. There has been extensive research on the use of AI in medical diagnosis, with thousands of models and publications demonstrating promising diagnostic accuracy across imaging and clinical decision support.
 
-The primary focus is to balance diagnostic performance with clinical transparency. By constraining the maximum depth of the Decision Tree, the model remains fully explainable, allowing each prediction to be represented as a clear and traceable set of decision rules.
+Despite academic progress, real-world clinical adoption remains uneven. While adoption is growing in some domains, especially imaging, it is still moderate in many settings, and in some low-resource environments, it remains limited. This is not surprising, given what is at stake. Clinical diagnosis directly affects patient outcomes, and doctors are understandably cautious about relying on tools they do not fully understand, especially in high-risk situations.
 
-This prototype aims to systematically analyze how limiting model complexity affects diagnostic performance.
+This is why there is a need for lightweight and interpretable AI models that are not only deployable in low-resource settings but also easily interpretable by medical professionals.
 
-Motivation
-
-In cardiac abnormality detection, missing a diseased case (False Negative) can have serious or life-threatening consequences. Therefore, Sensitivity (True Positive Rate) is treated as the primary performance metric in this project.
-
-Although deeper or more complex models may improve overall accuracy, they reduce interpretability and clinical trust. In healthcare applications, transparency is critical for:
-
-Clinical validation
-
-Trustworthy deployment
-
-Alignment with established physiological knowledge
-
-This project explores whether high Sensitivity can be maintained while enforcing strict interpretability constraints through shallow Decision Trees.
-
+The aim of this project is to develop an AI-based cardiac abnormality detector using Decision Trees, which are inherently lightweight and interpretable. We will focus on the trade-off between the model’s performance (primarily Sensitivity) and its interpretability by constraining the maximum depth of the tree. We will also try to identify the minimum tree depth, number of nodes, and other structural parameters that achieve clinically acceptable Sensitivity.
 Objectives
-🎯 Primary Objective
 
-Maximize Sensitivity in detecting cardiac abnormalities while limiting Decision Tree depth to preserve full clinical interpretability.
+## Objectives
 
-📌 Secondary Objectives
+### Primary Objective
 
-Analyze how Sensitivity changes as tree depth increases.
+Studying the trade-off between the model’s performance and its interpretability by constraining the maximum depth of the tree while limiting Decision Tree depth to preserve full clinical interpretability.
 
-Study the trade-off between predictive performance and interpretability.
+### Secondary Objectives
 
-Identify the minimum tree depth that achieves clinically acceptable Sensitivity.
+Analyze how Sensitivity changes as tree depth increases. Analyiseperformance metrics (e.g. Specificity, F1-score) to quantify overall perfromance of the model, and to identify the minimum tree depth, number of nodes, and other structural parameters that achieve clinically acceptable Sensitivity.
 
-Evaluate additional performance metrics (Specificity, F1-score) as secondary measures.
-
-If you later decide to convert this into a thesis-oriented repository, we can expand this into:
-
-Methodology
-
-Experimental Design
-
-Dataset Description
-
-Results & Analysis
-
-Future Work
-
-For now, this version is clean, focused, and appropriate for sharing an early prototype with a prospective PhD supervisor.
