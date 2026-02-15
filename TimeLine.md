@@ -1,4 +1,4 @@
-Day 1
+## Day 1
 
   Select and download ECG dataset
   
@@ -8,7 +8,7 @@ Day 1
   
   Plot sample raw ECG signals
 
-Day 2
+## Day 2
 
   Implement bandpass filtering
   
@@ -18,7 +18,7 @@ Day 2
   
   Save preprocessed signals
 
-Day 3
+## Day 3
 
   Implement R-peak detection
   
@@ -28,7 +28,7 @@ Day 3
   
   Store segmented beats
 
-Day 4
+## Day 4
 
   Extract time-domain features
   
