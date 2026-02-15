@@ -15,10 +15,10 @@ We will focus on the trade-off between the model’s performance (primarily Sens
 ## Objectives
 
 ### Primary Objective
-
-Studying the trade-off between the model’s performance and its interpretability while limiting Decision Tree depth to preserve full clinical interpretability.
+Study the trade-off between the model’s performance and its interpretability while limiting Decision Tree depth to preserve clinical interpretability.
 
 ### Secondary Objectives
-
-Analyze how Sensitivity changes as tree depth increases. Analyiseperformance metrics (e.g. Specificity, F1-score) to quantify overall perfromance of the model, and to identify the minimum tree depth, number of nodes, and other structural parameters that achieve clinically acceptable Sensitivity.
+- Analyze how Sensitivity changes as tree depth increases.
+- Analyze additional performance metrics (e.g., Specificity, F1-score) to quantify overall performance of the model.
+- Identify the minimum tree depth, number of nodes, and other structural parameters that achieve clinically acceptable Sensitivity.
 
