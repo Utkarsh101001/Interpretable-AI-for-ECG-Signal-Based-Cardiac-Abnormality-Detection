@@ -15,7 +15,7 @@ Objectives
 
 ### Primary Objective
 
-Studying the trade-off between the model’s performance and its interpretability by constraining the maximum depth of the tree while limiting Decision Tree depth to preserve full clinical interpretability.
+Studying the trade-off between the model’s performance and its interpretability while limiting Decision Tree depth to preserve full clinical interpretability.
 
 ### Secondary Objectives
 
