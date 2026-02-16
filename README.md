@@ -19,14 +19,3 @@ The model should achieve satisfactory diagnostic performance while maintaining l
 The decision-making process of the model should be transparent and easily understandable to primary care physicians, who serve as the first point of contact in identifying potential cardiac abnormalities and referring patients to specialists.
 
 Since any medical screening prioritizes minimizing false negatives, model performance will be evaluated primarily using Sensitivity. We will systematically study the trade-off between model performance and interpretability by constraining structural parameters such as maximum tree depth and number of nodes. The goal is to identify the minimum model complexity that achieves clinically acceptable Sensitivity while preserving interpretability and computational simplicity.
-
-## Objectives
-
-### Primary Objective
-Study the trade-off between the model’s performance and its interpretability while limiting Decision Tree depth to preserve clinical interpretability.
-
-### Secondary Objectives
-- Analyze how Sensitivity changes as tree depth increases.
-- Analyze additional performance metrics (e.g., Specificity, F1-score) to quantify overall performance of the model.
-- Identify the minimum tree depth, number of nodes, and other structural parameters that achieve clinically acceptable Sensitivity.
-
