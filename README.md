@@ -25,8 +25,8 @@ This project uses the PTB-XL dataset, a large publicly available clinical ECG da
 For this study, we use the 100 Hz downsampled recordings to reduce computational requirements while preserving clinically relevant waveform information.
 The dataset includes multi-label diagnostic annotations. For this prototype, the task is simplified to a binary classification problem:
 
--**Normal(NORM)**
+- **Normal(NORM)**
 
--**Abnormal (any non-NORM diagnostic superclass)**
+- **Abnormal (any non-NORM diagnostic superclass)**
 
 PTB-XL provides realistic clinical variability and mild acquisition noise, making it suitable for studying interpretable cardiac abnormality detection in short-duration ECG signals.
