@@ -19,3 +19,11 @@ The model should achieve satisfactory diagnostic performance while maintaining l
 The decision-making process of the model should be transparent and easily understandable to primary care physicians, who serve as the first point of contact in identifying potential cardiac abnormalities and referring patients to specialists.
 
 Since any medical screening prioritizes minimizing false negatives, model performance will be evaluated primarily using Sensitivity. We will systematically study the trade-off between model performance and interpretability by constraining structural parameters such as maximum tree depth and number of nodes. The goal is to identify the minimum model complexity that achieves clinically acceptable Sensitivity while preserving interpretability and computational simplicity.
+
+## Data Used
+This project uses the PTB-XL dataset, a large publicly available clinical ECG database containing over 21,000 12-lead ECG recordings collected in hospital settings. Each recording is 10 seconds long and available at both 500 Hz and 100 Hz sampling frequencies.
+For this study, we use the 100 Hz downsampled recordings to reduce computational requirements while preserving clinically relevant waveform information.
+The dataset includes multi-label diagnostic annotations. For this prototype, the task is simplified to a binary classification problem:
+-**Normal(NORM)**
+-**Abnormal (any non-NORM diagnostic superclass)**
+PTB-XL provides realistic clinical variability and mild acquisition noise, making it suitable for studying interpretable cardiac abnormality detection in short-duration ECG signals.
