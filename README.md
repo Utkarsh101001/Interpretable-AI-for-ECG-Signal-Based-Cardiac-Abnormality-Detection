@@ -12,10 +12,10 @@ Interpretable AI methods can be broadly classified into intrinsic interpretebili
 
 The objective of this project is to develop an AI-based cardiac abnormality detection system from short-duration ECG recordings using Decision Trees, which are inherently lightweight and interpretable. The project focuses on two primary objectives:
 
->**1. Computational Efficiency and Lightweight Design**:
-> The model should achieve satisfactory diagnostic performance while maintaining low computational requirements. Models with lightweight design uses fewer rules when making decison. They are not only more interpretable than their complex counterparts, but also require less computational resources, significantly reducing the cost of AI adoption.
->**2. Interpretability**:
-The decision-making process of the model should be transparent and easily understandable to primary care physicians, who serve as the first point of contact in identifying potential cardiac abnormalities and referring patients to specialists.
+&nbsp;&nbsp;&nbsp;&nbsp;T**1. Computational Efficiency and Lightweight Design**:
+&nbsp;&nbsp;&nbsp;&nbsp;TThe model should achieve satisfactory diagnostic performance while maintaining low computational requirements. Models with lightweight design uses fewer rules when making decison. They are not only more interpretable than their complex counterparts, but also require less computational resources, significantly reducing the cost of AI adoption.
+&nbsp;&nbsp;&nbsp;&nbsp;T**2. Interpretability**:
+&nbsp;&nbsp;&nbsp;&nbsp;TThe decision-making process of the model should be transparent and easily understandable to primary care physicians, who serve as the first point of contact in identifying potential cardiac abnormalities and referring patients to specialists.
 
 Since any medical screening prioritizes minimizing false negatives, model performance will be evaluated primarily using Sensitivity. We will systematically study the trade-off between model performance and interpretability by constraining structural parameters such as maximum tree depth and number of nodes. The goal is to identify the minimum model complexity that achieves clinically acceptable Sensitivity while preserving interpretability and computational simplicity.
 
