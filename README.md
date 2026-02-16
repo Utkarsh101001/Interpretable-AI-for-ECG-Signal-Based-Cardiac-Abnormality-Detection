@@ -14,6 +14,7 @@ The objective of this project is to develop an AI-based cardiac abnormality dete
 
 **1. Computational Efficiency and Lightweight Design**:
 The model should achieve satisfactory diagnostic performance while maintaining low computational requirements. Models with lightweight design uses fewer rules when making decison. They are not only more interpretable than their complex counterparts, but also require less computational resources, significantly reducing the cost of AI adoption.
+
 **2. Interpretability**:
 The decision-making process of the model should be transparent and easily understandable to primary care physicians, who serve as the first point of contact in identifying potential cardiac abnormalities and referring patients to specialists.
 
