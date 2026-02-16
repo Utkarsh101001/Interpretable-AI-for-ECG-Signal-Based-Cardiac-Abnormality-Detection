@@ -24,6 +24,9 @@ Since any medical screening prioritizes minimizing false negatives, model perfor
 This project uses the PTB-XL dataset, a large publicly available clinical ECG database containing over 21,000 12-lead ECG recordings collected in hospital settings. Each recording is 10 seconds long and available at both 500 Hz and 100 Hz sampling frequencies.
 For this study, we use the 100 Hz downsampled recordings to reduce computational requirements while preserving clinically relevant waveform information.
 The dataset includes multi-label diagnostic annotations. For this prototype, the task is simplified to a binary classification problem:
+
 -**Normal(NORM)**
+
 -**Abnormal (any non-NORM diagnostic superclass)**
+
 PTB-XL provides realistic clinical variability and mild acquisition noise, making it suitable for studying interpretable cardiac abnormality detection in short-duration ECG signals.
